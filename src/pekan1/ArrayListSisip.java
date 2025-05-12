@@ -13,5 +13,4 @@ public class ArrayListSisip {
 		list.add(2,3);
 		System.out.println(list);
 	}
-
 }

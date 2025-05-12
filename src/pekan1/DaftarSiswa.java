@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DaftarSiswa {
+	
 	private static ArrayList<String> daftarNamaSiswa = new ArrayList<>();
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int pilihan;
@@ -37,8 +39,8 @@ public class DaftarSiswa {
 				break;
 			}
 		} while (pilihan != 5);
-
 	}
+	
 	private static void cariNamaSiswa(Scanner scanner) {
 		System.out.print("Masukkan nama siswa yang dicari: ");
 		String nama = scanner.nextLine();
@@ -48,6 +50,7 @@ public class DaftarSiswa {
 			System.out.println("Nama siswa tidak ditemukan.");
 		}
 	}
+	
 	private static void hapusNamaSiswa(Scanner scanner) {
 		System.out.print("Masukkan nama siswa yang akan dihapus: ");
 		String nama = scanner.nextLine();
@@ -57,6 +60,7 @@ public class DaftarSiswa {
 			System.out.println("Nama siswa tidak ditemukan.");
 		}
 	}
+	
 	private static void tampilkanDaftarNamaSiswa() {
 		if(daftarNamaSiswa.isEmpty()) {
 			System.out.println("Tidak ada siswa di dalam datar.");
@@ -66,13 +70,13 @@ public class DaftarSiswa {
 				System.out.println(nama);
 			}
 		}
-		
 	}
+	
 	private static void tambahNamaSiswa(Scanner scanner) {
 		System.out.print("Masukkan nama siswa: ");
 		String nama = scanner.nextLine();
 		daftarNamaSiswa.add(nama);
 		System.out.println("Nama siswa berhasil ditambahkan.");
+		}
+	
 	}
-
-}

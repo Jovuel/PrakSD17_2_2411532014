@@ -14,4 +14,4 @@ public class Mahasiswa {
 	public String toString() {
 		return "NIM: " + nim + ", Nama: " + nama + ", Prodi: " + prodi;
 	}
-}
+}	
