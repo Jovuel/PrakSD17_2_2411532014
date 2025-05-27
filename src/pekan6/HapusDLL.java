@@ -63,6 +63,10 @@ public class HapusDLL {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println("Jovantri Immanuel Gulo");
+		System.out.println("2411532014");
+		System.out.println();
+		
 		NodeDLL head = new NodeDLL(1);
 		head.next = new NodeDLL(2);
 		head.next.prev = head;
