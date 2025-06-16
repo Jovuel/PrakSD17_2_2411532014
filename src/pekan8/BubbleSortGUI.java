@@ -77,7 +77,7 @@ public class BubbleSortGUI extends JFrame {
 		resetButton = new JButton("Reset");
 		stepButton.setEnabled(false);
 		controlPanel.add(stepButton);
-		controlPanel.add(resetButton);
+		controlPanel.add(resetButton);	
 
 		JPanel logPanel = new JPanel(new BorderLayout());
 		logPanel.setBorder(BorderFactory.createTitledBorder("Log Langkah"));
