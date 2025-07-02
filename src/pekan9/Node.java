@@ -17,7 +17,7 @@ public class Node {
     }
     
     public void setRight(Node node) {
-        if (right == null)
+        if (right == null)	
             right = node;
     }
     
